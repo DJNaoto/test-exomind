@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    >
+    <TextView
+        android:id="@+id/textViewCity"
+        style="@style/TableRow_Item.City"
+        />
+
+    <TextView
+        android:id="@+id/textViewTemperature"
+        style="@style/TableRow_Item.Temperature"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCloudCover"
+        style="@style/TableRow_Item.CloudCover"
+        >
+
+        <ImageView
+            style="@style/TableRow_ImageView"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            style="@style/TableRow_ImageView"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            style="@style/TableRow_ImageView"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+</TableRow>

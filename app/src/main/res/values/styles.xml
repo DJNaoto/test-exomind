@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TableRow_Item">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">2px</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="TableRow_Item.Header" parent="TableRow_Item">
+        <item name="android:background">#CCCCCC</item>
+    </style>
+
+    <style name="TableRow_Item.City" parent="TableRow_Item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TableRow_Item.Temperature" parent="TableRow_Item">
+        <item name="android:layout_width">50dp</item>
+    </style>
+
+    <style name="TableRow_Item.CloudCover" parent="TableRow_Item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="TableRow_ImageView">
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:src">@drawable/ic_baseline_cloud_24</item>
+    </style>
+</resources>

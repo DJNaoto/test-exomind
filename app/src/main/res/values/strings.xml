@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Test Exomind</string>
+    <string name="table_layout_header_city">Ville</string>
+    <string name="table_layout_header_temperature">Temp.</string>
+    <string name="table_layout_header_cloud_cover">Couverture\nnuageuse</string>
+    <string name="city_1">Rennes</string>
+    <string name="city_2">Turin</string>
+    <string name="city_3">Nantes</string>
+    <string name="city_4">Lima</string>
+    <string name="city_5">Lyon</string>
+    <string name="message_1">Nous téléchargeons les données…</string>
+    <string name="message_2">C’est presque fini…</string>
+    <string name="message_3">Plus que quelques secondes avant d’avoir le résultat…</string>
+    <string name="data_error">ERR</string>
+    <string name="restart">Recommencer</string>
+</resources>
